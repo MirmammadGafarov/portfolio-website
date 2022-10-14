@@ -1,0 +1,536 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #eeeff1;
+  color: #000 !important;
+  font-family: "Poppins", sans-serif;
+}
+.form-floating > label {
+  left: 10px;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+  border: #000;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  padding: 15px 40px;
+}
+
+#left,
+#right {
+  opacity: 0.4 !important;
+}
+
+#middle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  padding: 15px !important;
+
+  color: #000;
+}
+
+/* Banner */
+
+.heading {
+  padding: 10% 6% 10% 0%;
+}
+
+.heading h1 {
+  font-size: 80px;
+  line-height: 90px;
+}
+
+.gradient-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  max-width: 1100px;
+  z-index: -10;
+}
+
+.gradient-animation {
+  position: static;
+  left: auto;
+  top: -6%;
+  right: -12%;
+  bottom: auto;
+  overflow: hidden;
+  min-width: 1000px;
+  margin-top: -90px;
+  margin-right: 0;
+  padding-top: 0;
+  transform: translate3d(49.99px, 49.99px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(334deg) skew(0deg, 0deg);
+  transition: all 1s;
+}
+
+.banner h3 {
+  font-size: 26px;
+  font-weight: 300;
+  color: #62646d;
+  padding: 3% 5% 2% 0%;
+  line-height: 40px;
+}
+
+.portfolio-btn {
+  display: inline-block;
+  background-color: #000;
+  border-radius: 7px;
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: all 0.4s;
+  color: #fff;
+}
+
+.portfolio-btn:hover {
+  color: #fff;
+  background-color: rgb(61, 61, 61);
+}
+
+/* ABOUT */
+.about {
+  margin-top: 5%;
+}
+
+.about h3 {
+  font-size: 44px;
+  margin: 20px 0px;
+}
+
+.about p {
+  font-size: 20px;
+}
+
+.skill {
+  display: inline-block;
+  border: 1px solid #ced1df;
+  border-radius: 8px;
+  margin: 0 10px 10px 0;
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 39px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* portfolio */
+
+.portfolio {
+  margin-top: 10%;
+}
+.project:hover a {
+  color: #fff;
+}
+
+.work {
+  position: relative;
+  border: 5px solid #fff;
+  overflow: hidden;
+}
+
+.work .ss {
+  max-width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: all 1s;
+}
+
+.overlay {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background-color: rgba(100, 100, 100, 0.8);
+  text-align: center;
+  opacity: 0;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.inner-text i {
+  font-size: 32px;
+  padding-left: 10px;
+}
+
+/* contact */
+
+.contact {
+  margin-top: 13%;
+}
+.contact .container {
+  padding: 5%;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.contact h2 {
+  font-size: 64px;
+}
+
+.contact textarea {
+  height: 150px !important;
+}
+
+.contact button {
+  margin-top: 15px;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  background-color: #1a1b1f;
+  color: #fff;
+  padding: 12px 25px 12px;
+}
+
+.contact button:hover {
+  background-color: #1a1b1f;
+  color: #fff;
+}
+
+/* footer */
+
+footer {
+  margin-top: 4%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+/* sc media */
+
+.sc-media {
+  bottom: 30px;
+  right: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.make-fixed {
+  position: fixed !important;
+}
+
+.sc-media a {
+  padding: 8px;
+  display: block;
+}
+
+.sc-media a:nth-child(1) i {
+  font-size: 35px;
+  color: #0072b1;
+}
+
+.sc-media a:nth-child(2) i {
+  font-size: 35px;
+  color: #171515;
+}
+
+/* thanks */
+
+.thanks {
+  margin-top: 13%;
+  margin: 5%;
+}
+.thanks .container {
+  padding: 3%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.thanks h2 {
+  font-size: 34px;
+}
+.thanks a {
+  border: 2px solid #000;
+  color: #000;
+  padding: 1%;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.thanks a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 1200px) {
+  .banner h1{
+    font-size: 65px;
+  }
+.about p{
+  font-size: 18px;
+}
+  .contact{
+    padding: 2%;
+  }
+
+  .contact h2{
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner h1{
+    font-size: 52px;
+    line-height: 70px;
+  }
+
+  .banner h3{
+    font-size: 20px
+  }
+
+  .about p{
+    font-size: 16px;
+  }
+
+  .about .skill{
+    font-size: 12px;
+  }
+
+  .portfolio {
+    text-align: center;
+  }
+  
+  .portfolio .ss{
+    width: 460px !important;
+    height: 360px !important;
+  }
+
+  .work{
+    margin-top: 8%;
+  
+  }
+
+  .contact{
+    padding: 1.5%;
+  }
+
+  .contact h2{
+    font-size: 40px;
+  }
+
+  .form-floating > label {
+    font-size: 14px;
+  }
+
+  .thanks h2{
+    font-size: 24px;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  #left,
+#right,
+#middle {
+  font-size: 18px;
+}
+
+
+.banner h1{
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.banner h3{
+  font-size: 18px
+}
+
+
+
+.portfolio {
+  padding: 10%;
+}
+
+.portfolio .ss{
+  width: 560px !important;
+  height: 400px !important;
+}
+
+
+
+.contact{
+  padding: 2%;
+}
+
+.contact h2{
+  font-size: 36px;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+ 
+
+.banner h1{
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.banner h3{
+  font-size: 16px
+}
+
+.about h3{
+  font-size: 32px;
+}
+
+.portfolio {
+  padding: 3%;
+}
+
+.portfolio .ss{
+  height: 340px !important; 
+}
+
+
+.contact h2{
+  font-size: 26px;
+}
+
+.thanks h2{
+  font-size: 18px;
+}
+
+.thanks a{
+  font-size: 14px;
+  border: 1px solid #000;
+}
+
+}
+
+
+@media screen and (max-width: 480px) {
+  #left,
+#right,
+#middle {
+  display: block;
+}
+
+.nav-link{
+  font-size: 14px;
+}
+
+.banner h1{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.banner h3{
+display: none;
+}
+
+.portfolio-btn{
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.about h3{
+  font-size: 24px;
+}
+
+.about p{
+  font-size: 14px;
+}
+
+.skill{
+  font-size: 10px;
+  padding: 5px;
+}
+
+
+
+
+
+
+.portfolio {
+  padding: 1% !important;
+}
+
+ .portfolio .ss{
+  height: 300px !important; 
+} 
+
+
+
+
+.contact h2{
+  font-size: 22px;
+  padding-bottom: 25px;
+}
+
+.form-floating > label {
+  font-size: 12px;
+}
+
+
+.contact .btn{
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+
+
+.thanks h2{
+  font-size: 16px;
+}
+
+
+.thanks a{
+  font-size: 12px;
+}
+
+}
