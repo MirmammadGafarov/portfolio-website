@@ -139,6 +139,11 @@ header {
 .portfolio {
   margin-top: 10%;
 }
+
+.project {
+  margin-top: 20px;
+}
+
 .project:hover a {
   color: #fff;
 }
@@ -295,63 +300,60 @@ footer {
   background-color: #000;
 }
 
-
-
 /* Media Query */
 
 @media screen and (max-width: 1200px) {
-  .banner h1{
+  .banner h1 {
     font-size: 65px;
   }
-.about p{
-  font-size: 18px;
-}
-  .contact{
+  .about p {
+    font-size: 18px;
+  }
+  .contact {
     padding: 2%;
   }
 
-  .contact h2{
+  .contact h2 {
     font-size: 55px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .banner h1{
+  .banner h1 {
     font-size: 52px;
     line-height: 70px;
   }
 
-  .banner h3{
-    font-size: 20px
+  .banner h3 {
+    font-size: 20px;
   }
 
-  .about p{
+  .about p {
     font-size: 16px;
   }
 
-  .about .skill{
+  .about .skill {
     font-size: 12px;
   }
 
   .portfolio {
     text-align: center;
   }
-  
-  .portfolio .ss{
+
+  .portfolio .ss {
     width: 460px !important;
     height: 360px !important;
   }
 
-  .work{
+  .work {
     margin-top: 8%;
-  
   }
 
-  .contact{
+  .contact {
     padding: 1.5%;
   }
 
-  .contact h2{
+  .contact h2 {
     font-size: 40px;
   }
 
@@ -359,178 +361,148 @@ footer {
     font-size: 14px;
   }
 
-  .thanks h2{
+  .thanks h2 {
     font-size: 24px;
   }
-
 }
-
 
 @media screen and (max-width: 768px) {
   #left,
-#right,
-#middle {
-  font-size: 18px;
+  #right,
+  #middle {
+    font-size: 18px;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .banner h3 {
+    font-size: 18px;
+  }
+
+  .portfolio {
+    padding: 10%;
+  }
+
+  .portfolio .ss {
+    width: 560px !important;
+    height: 400px !important;
+  }
+
+  .contact {
+    padding: 2%;
+  }
+
+  .contact h2 {
+    font-size: 36px;
+  }
 }
-
-
-.banner h1{
-  font-size: 36px;
-  line-height: 50px;
-}
-
-.banner h3{
-  font-size: 18px
-}
-
-
-
-.portfolio {
-  padding: 10%;
-}
-
-.portfolio .ss{
-  width: 560px !important;
-  height: 400px !important;
-}
-
-
-
-.contact{
-  padding: 2%;
-}
-
-.contact h2{
-  font-size: 36px;
-}
-
-
-
-}
-
-
 
 @media screen and (max-width: 576px) {
- 
+  .banner h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
 
-.banner h1{
-  font-size: 30px;
-  line-height: 45px;
+  .banner h3 {
+    font-size: 16px;
+  }
+
+  .about h3 {
+    font-size: 32px;
+  }
+
+  .portfolio {
+    padding: 3%;
+  }
+
+  .portfolio .ss {
+    height: 340px !important;
+  }
+
+  .contact h2 {
+    font-size: 26px;
+  }
+
+  .thanks h2 {
+    font-size: 18px;
+  }
+
+  .thanks a {
+    font-size: 14px;
+    border: 1px solid #000;
+  }
 }
-
-.banner h3{
-  font-size: 16px
-}
-
-.about h3{
-  font-size: 32px;
-}
-
-.portfolio {
-  padding: 3%;
-}
-
-.portfolio .ss{
-  height: 340px !important; 
-}
-
-
-.contact h2{
-  font-size: 26px;
-}
-
-.thanks h2{
-  font-size: 18px;
-}
-
-.thanks a{
-  font-size: 14px;
-  border: 1px solid #000;
-}
-
-}
-
 
 @media screen and (max-width: 480px) {
   #left,
-#right,
-#middle {
-  display: block;
-}
+  #right,
+  #middle {
+    display: block;
+  }
 
-.nav-link{
-  font-size: 14px;
-}
+  .nav-link {
+    font-size: 14px;
+  }
 
-.banner h1{
-  font-size: 20px;
-  line-height: 30px;
-}
+  .banner h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-.banner h3{
-display: none;
-}
+  .banner h3 {
+    display: none;
+  }
 
-.portfolio-btn{
-  font-size: 14px;
-  margin-top: 20px;
-  padding: 10px;
-}
+  .portfolio-btn {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px;
+  }
 
-.about h3{
-  font-size: 24px;
-}
+  .about h3 {
+    font-size: 24px;
+  }
 
-.about p{
-  font-size: 14px;
-}
+  .about p {
+    font-size: 14px;
+  }
 
-.skill{
-  font-size: 10px;
-  padding: 5px;
-}
+  .skill {
+    font-size: 10px;
+    padding: 5px;
+  }
 
+  .portfolio {
+    padding: 1% !important;
+  }
 
+  .portfolio .ss {
+    height: 300px !important;
+  }
 
+  .contact h2 {
+    font-size: 22px;
+    padding-bottom: 25px;
+  }
 
+  .form-floating > label {
+    font-size: 12px;
+  }
 
+  .contact .btn {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px;
+  }
 
-.portfolio {
-  padding: 1% !important;
-}
+  .thanks h2 {
+    font-size: 16px;
+  }
 
- .portfolio .ss{
-  height: 300px !important; 
-} 
-
-
-
-
-.contact h2{
-  font-size: 22px;
-  padding-bottom: 25px;
-}
-
-.form-floating > label {
-  font-size: 12px;
-}
-
-
-.contact .btn{
-  font-size: 14px;
-  margin-top: 20px;
-  padding: 10px;
-}
-
-
-
-.thanks h2{
-  font-size: 16px;
-}
-
-
-.thanks a{
-  font-size: 12px;
-}
-
+  .thanks a {
+    font-size: 12px;
+  }
 }

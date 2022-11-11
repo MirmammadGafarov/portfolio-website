@@ -2,9 +2,6 @@ document.getElementById("left").innerText = "<Header";
 document.getElementById("middle").innerText = "{M:Gafarov} ";
 document.getElementById("right").innerText = " />";
 
-
-
-
 // Fixed Navigation Bar all over the page
 $(window).scroll(() => {
   var scroll = $(window).scrollTop();
@@ -16,7 +13,7 @@ $(window).scroll(() => {
   }
 });
 
-const projects = ["construction", "canvas", "meladora"];
+const projects = ["restaurant", "construction", "canvas", "meladora"];
 projects.forEach((project) => {
   $("#" + project).on({
     mouseover: function () {
